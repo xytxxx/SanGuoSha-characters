@@ -7,7 +7,6 @@ body {
     box-shadow: 2px 5px 12px -1px rgba(0, 0, 0, 0.56);
     padding: 20px;
     background-color: white;
-    max-width: 500px;
     margin: 15px auto;
     text-align: center;
     min-height: 500px;
@@ -33,5 +32,8 @@ body {
     background-color: white;
     border: 1px solid       black;
     list-style: none;
+  }
+  #app p {
+    text-align: left;
   }
   
