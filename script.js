@@ -3,17 +3,8 @@
 class App extends React.Component {
     constructor() {
       super();
-      
       this.state = {
-        characters: {
-          "SHU001": {
-            "name": "LIU BEI",
-            "abilities": [
-                "You are able to give cards from your hand to others once per turn",
-                "If you give out two or more cards in your turn, you get to play a basic card action without using any card"
-            ]
-          }
-        },
+        characters: CHA,
         appName: 'Search SanGuoSha Characters',
         result: undefined };
   
@@ -24,6 +15,8 @@ class App extends React.Component {
       if (input != '' && input in this.state.characters) {
         console.log(input);
         this.setState({ result: this.state.characters[input] });
+      } else {
+        this.setState({ result: null });
       }
     }
     render() {
@@ -67,9 +60,9 @@ class App extends React.Component {
         return (
           React.createElement("div", null, 
           [
-            React.createElement("h3", null, c.name),
+            React.createElement("h3", {key: "name"}, c.name),
             c.abilities.map((desc) => {
-              return React.createElement('p', null, desc);
+              return React.createElement('p', {key: Math.random()}, desc);
             })
           ])
         );
