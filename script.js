@@ -64,8 +64,8 @@ class App extends React.Component {
         return (
           React.createElement("div", null, 
           [
-            React.createElement("h3", {key: "name"}, c.name),
-            c.abilities.map((desc) => {
+            React.createElement("h2", {key: "name"}, c.name),
+            c.abilities.map(function(desc) {
               return React.createElement('p', {key: Math.random()}, desc);
             })
           ])
