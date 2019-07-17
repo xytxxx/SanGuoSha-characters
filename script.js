@@ -31,7 +31,8 @@ class App extends React.Component {
     render() {
       return (
         React.createElement("div", null,
-        React.createElement("h1", null, this.props.name)));
+        React.createElement("h1", null, this.props.name)
+        React.createElement("h2", null, "with the number on the bottom right of the character card")));
     }}
   
   class SearchBar extends React.Component {
@@ -39,7 +40,7 @@ class App extends React.Component {
       return (
         React.createElement("div", null,
         React.createElement("input", { onChange: this.props.search, 
-            placeholder: "Search Card Number on Bottom Right (e.g. WU001)" })));
+            placeholder: "e.g. 'WU001' or 'wu 003'" })));
     }}
   
   class SearchResult extends React.Component {
