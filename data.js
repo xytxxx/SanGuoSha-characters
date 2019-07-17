@@ -231,9 +231,9 @@ const CHA =
     "WEI011":{
         "name":"Cao Ren",
         "abilities": [
-            "At the end of your turn, you can draw a card and filp[1] your character card.",
+            "At the end of your turn, you can draw a card and filp** your character card.",
             "Everytime your character card is flipped, you can draw a card, then you can use a spell or equipment card. If you used a card, you can discard a card of same kind on the field.",
-            "*[1] FLIPPING character cards: at your start of your turn, if your character card is back side up, you flip it back and skip your ENTIRE turn."
+            "**flipping character cards: at your start of your turn, if your character card is back side up, you flip it back and skip your ENTIRE turn."
         ]
     },
     "SHU013":{
