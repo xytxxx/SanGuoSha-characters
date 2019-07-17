@@ -223,7 +223,7 @@ const CHA =
         ]
     },
     "SHU008":{
-        "name:":"Huang Zhong",
+        "name:": "Huang Zhong",
         "abilities": [
             "You can use 'kill' on any player within <number on that kill card> distance to you. After you target your 'kill' on other players, if their number of hand cards is equal to or LESS than yours, that 'kill' cannot be dodged, also, if their health is equal to or GREATER than yours, the damage of the 'kill' += 1"
         ]

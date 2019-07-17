@@ -31,8 +31,11 @@ class App extends React.Component {
     render() {
       return (
         React.createElement("div", null,
-        React.createElement("h1", null, this.props.name)
-        React.createElement("h2", null, "with the number on the bottom right of the character card")));
+        [
+          React.createElement("h1", null, this.props.name),
+          React.createElement("h2", null, "with the number on the bottom right of the character card")
+        ])
+      );
     }}
   
   class SearchBar extends React.Component {
