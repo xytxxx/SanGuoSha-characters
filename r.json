@@ -1,6 +1,5 @@
-const CHA = 
 {
-    "QUN019": {
+    "24": {
         "abilities": [
             "If someone deals you a damage with a red kill, that person can choose to either gain one health or draw a card"
         ],
@@ -9,13 +8,14 @@ const CHA =
     "QUN026": {
         "abilities": [
             "If you use a black kill to deal a damage to someone, you can discard a card from their equipment field, if the card is horse, you can take it.",
-            "CORE EFFECT: if your health is greater or equal to 3, you have -1. Otherwise, you have +1.",
+            "Core effect: if your health is greater or equal to 3, you have -1. Otherwise, you have +1.",
+            "Can only be gained from the effect above. Once per turn, you are able to select another character, observer all his cards in his hand and then select at most 1 heart card to put on top of deck or discard."
         ],
         "name": "Gong Sun Zan"
     },
     "QUN002": {
         "abilities": [
-            "CORE EFFECT: your kills require 2 doges, dueling with you requires 2 kills",
+            "Core effect: your kills require 2 doges, dueling with you requires 2 kills",
             "If you deal damage to someone, that person has the choice to: let you take a card from that person, and that person chooses someone for you to duel with"
         ],
         "name": "L\u00fc Bu"
@@ -29,7 +29,7 @@ const CHA =
     },
     "WEI004": {
         "abilities": [
-            "You can choose to draw X fewer cards to instead choose from X people who have greater or equal number of cards than you and draw one card from each of their hands."
+            "You can choose to draw x fewer cards to instead choose from x people who have greater or equal number of cards than you and draw one card from each of their hands."
         ],
         "name": "Zhang Liao"
     },
@@ -69,15 +69,15 @@ const CHA =
     },
     "SHU003": {
         "abilities": [
-            "You are able to 'kill' infinitely (use the kill card any number of times per turn). This is equivalent to having a free crossbow.",
+            "You are able to \u201ckill\u201d infinitely (use the kill card any number of times per turn). This is equivalent to having a free crossbow.",
             "ONCE PER GAME: gain health back to the amount you had before you ended your last turn, if you do so, you draw the number of cards equalling to the amount of health you gained"
         ],
         "name": "Zhang Fei"
     },
     "SHU004": {
         "abilities": [
-            "At the beginning of your turn, you are able to look at the top min(X, 5) cards on the deck (where X is the number of players alive in the game). You are able to rearrange the order of these cards or put any number of these cards to the bottom of the deck",
-            "When you have no cards in your hand, you cannot be selected as a target for duel or any type of 'kill'"
+            "At the beginning of your turn, you are able to look at the top min(x, 5) cards on the deck (where x is the number of players alive in the game). You are able to rearrange the order of these cards or put any number of these cards to the bottom of the deck",
+            "When you have no cards in your hand, you cannot be selected as a target for duel or any type of \u201ckill\u201d"
         ],
         "name": "Zhu Ge Liang"
     },
@@ -97,7 +97,7 @@ const CHA =
             "If you lose the comparison (this includes ties), you have the choice of letting them gain one health.",
             "If you win the comparison, the loser cannot use any cards from their hand and lose all of their non-core effects until the end of the turn.",
             "Both players lose the card they used for the comparison",
-            "All red cards (including equipped equipments) can be used as a normal 'kill'"
+            "All red cards (including equipped equipments) can be used as a normal \u201ckill\u201d"
         ],
         "name": "Guan Yu"
     },
@@ -135,14 +135,14 @@ const CHA =
             "Once per turn, you are able to use one of the following:",
             "Use diamond as a skip turn and draw a card from the deck",
             "Use diamond to discard a skip turn and draw a card from the deck",
-            "If you are selected as an attack target, you can discard a card to re-direct this attack to another player (except the attacker) in your attack range"
+            "If you are selected as an attack target, you can discard a card to choose someone (who\u2019s not the attacker) in your attack range and direct this attack to that person"
         ],
         "name": "Da Qiao"
     },
     "WU007": {
         "abilities": [
             "Whenever you are the only target of some spell used by someone else, you can choose to stack all of your cards in your hand on your character (you get them at the end of your turn).",
-            "Whenever you run out of cards in your hand, you can select up to X number of people to draw a card, where X is the number of cards you had right before you ran out of cards in your hand."
+            "Whenever you run of cards in your hand, you can select up to x number of people to draw a card, where x is the number of cards you had right before you ran out of cards in your hand."
         ],
         "name": "Lu Xun"
     },
@@ -162,7 +162,7 @@ const CHA =
     },
     "WU003": {
         "abilities": [
-            "If you do not use any type of 'kill' in this turn, you can skip your discard phase. Using a duel card does not count as using a kill, but using a kill during a duel does count.",
+            "If you do not use any type of \u201ckill\u201d in this turn, you can skip your discard phase. Using a duel card does not count as using a kill, but using a kill during a duel does count.",
             "TRANSFORM: At the beginning of your turn, if you have 3 or more cards in your hand than your health, then you lose one health limit and gain the effect below",
             "Can only be gained from the effect above. Once per turn, you are able to select another character, observer all his cards in his hand and then select at most 1 heart card to put on top of deck or discard."
         ],
@@ -211,7 +211,7 @@ const CHA =
     "WU013":{
         "name": "Zhou Tai",
         "abilities": [
-            "CORE EFFECT. When your health becomes 0, you show the first card of the deck. If that card has different number than any other card that is placed on your character card, you put the card on your character card and heal your health back to 1. If not, discard that card. Whenever you have cards on your character card, your maximum hand card number equals to the number of cards on you character card.",
+            "LOCKED. When your health becomes 0, you show the first card of the deck. If that card has different number than any other card that is placed on your character card, you put the card on your character card and heal your health back to 1. If not, discard that card. Whenever you have cards on your character card, your maximum hand card number equals to the number of cards on you character card.",
             "Whenever a player's hand card is discarded or taken by another player, you can decrease your health by 1 and let the person losing card draw two cards."
         ]
     },
@@ -239,10 +239,10 @@ const CHA =
     "SHU013":{
         "name": "Liu Shan",
         "abilities": [
-            "CORE EFFECT. Whenever other players use 'kill' on you, they need to discard another basic card or that 'kill' has no effect.",
+            "LOCKED. Whenever other players use 'kill' on you, they need to discard another basic card or that 'kill' has no effect.",
             "You can skip your main phase. If you do so, at the end of that turn, you can discard a hand card and let another player do one extra turn. (does not change the rotating order, tho)",
             "WHEN YOU ARE KING: TRANSFORM: at the beginning of your turn, if your health == min(all players' health), you increase your maximum health by 1, heal by 1, and gain the third ability below:",
             "WHEN YOU ARE KING: whenever you need to use or discard a 'kill', you can ask another red character to do it for you."
         ]
     }
-};
+}

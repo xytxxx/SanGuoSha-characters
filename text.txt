@@ -1,0 +1,92 @@
+1. Liu Bei
+You are able to give cards from your hand to others once per turn
+If you give out two or more cards in your turn, you get to play a basic card action without using any card
+2. Zhu Ge Liang
+At the beginning of your turn, you are able to look at the top min(x, 5) cards on the deck (where x is the number of players alive in the game). You are able to rearrange the order of these cards or put any number of these cards to the bottom of the deck
+When you have no cards in your hand, you cannot be selected as a target for duel or any type of “kill”
+3. Zhang Fei
+You are able to “kill” infinitely (use the kill card any number of times per turn). This is equivalent to having a free crossbow.
+Once per game effect: gain health back to the amount you had before you ended your last turn, if you do so, you draw the number of cards equalling to the amount of health you gained
+4.Guan Yu 
+Once per turn, you are able to compare cards with another character, the winner being whoever puts the larger number (ace = 1, K = 13).
+If you lose the comparison (this includes ties), you have the choice of letting them gain one health.
+If you win the comparison, the loser cannot use any cards from their hand and lose all of their non-core effects until the end of the turn.
+Both players lose the card they used for the comparison
+All red cards (including equipped equipments) can be used as a normal “kill”
+5. Ma Chao
+You have a -1 horse to start. This can be stacked once with the -1 horse card.
+If you select a person as an attacking target, you have the choice of using this ability:
+Check out the top card as a judgment.
+The target must discard a card with the same suit as the judgment card in order to dodge. 
+The target loses all their non-core effects until the end of the turn.
+6.Zhao Yun
+You are able to use any type of your kills as a dodge and your dodge as a normal kill
+If you use a card outside of your turn, you can flip a judgment card, if that card is of the same type as the card that you used, you are able to give to any player. If that card is not of the same type, you can put it back on top or discard it.
+7.Huang Yue Ying
+Each time you use a spell card, you are able to flip the top card as judgment, if that card is a basic card, you can take it, otherwise, you can only take it if you trade it with a card in your hand.
+Your spells are not limited by range. Your non-horse equipments cannot be discarded.
+8.Xu Shu
+When another player ends their turn, if that player has dealt damage in that turn, you have a choice of using a kill to that player
+If you are injured and you deal damage to others, you must lose one health limit and gain the effect below
+This effect can only be gained permanently from the above effect. Once per turn, you are able to declare one of the three types (basic, spell, equipment) and keep flipping cards on top of the deck until a card of the declared type appears, then you are able to give this card to a male character in the game.
+9. Sun Quan
+Once per turn, you can discard any number of cards (including equipment) and draw that many cards from the deck
+If someone else from the same country revives you with a peach you gain 2 health
+10. Lu Xun
+Whenever you are the only target of some spell used by someone else, you can choose to stack all of your cards in your hand on your character (you get them at the end of your turn).
+Whenever you run of cards in your hand, you can select up to x number of people to draw a card, where x is the number of cards you had right before you ran out of cards in your hand.
+11. Da Qiao
+Once per turn, you are able to use one of the following:
+        Use diamond as a skip turn and draw a card from the deck
+        Use diamond to discard a skip turn and draw a card from the deck
+If you are selected as an attack target, you can discard a card to choose someone (who’s not the attacker) in your attack range and direct this attack to that person
+12. Huang Gai
+Once per turn, you can discard a card to decrease your health by 1 (not damage)
+If your health is decreased by 1 (without damage), then you draw 3 cards. On that turn, your red attacks are infinite range and undodgeable and you can use one extra attack.
+13. Zhou Yu
+You draw an extra card, you can always hold the maximum number of cards that you can hold (equaling to your health limit)
+You can give a card from your hand to another character, that character must either reveal all cards in his hand and discard all cards of the same suit as the card that you give, from their hands+equipment field, or to decrease their health by 1.
+14. Gan Ning
+All of your black cards can be used as discards
+Once per game, you can unselect any number of targets for some card that is played that selects more than 1 target.
+15. Lü Meng
+If you do not use any type of “kill” in this turn, you can skip your discard phase. Using a duel card does not count as using a kill, but using a kill during a duel does count.
+At the beginning of your turn, if you have 3 or more cards in your hand than your health, then you lose one health limit and gain the effect below
+Can only be gained from the effect above. Once per turn, you are able to select another character, observer all his cards in his hand and then select at most 1 heart card to put on top of deck or discard.
+16. Cao Cao
+If you take damage, you can either draw a card or take the card(if applicable) that dealt you the damage
+17. Zhen Ji
+Your black cards in your hand can be used as dodges
+At the start of your turn, you can keep revealing cards on top of the deck until you see a red card, you take all the black cards you revealed in this process.
+18. Guo Jia
+Each damage you take, you can draw 2 cards, and then distribute up to cards to each player, if the player is not you, then they get the cards at the beginning of their turn.
+You take all of your judgment cards
+19. Si Ma Yi
+When you take damage, for each damage, you can take a card from the damage source
+You can switch the result of a judgment by replacing it using a card of yours
+20. Xia Hou Dun
+If you get cards outside your turn, you can give it to others
+If you take damage, for each damage, you can choose to reveal a judgment card for the damage source, if red, they take 1 damage, if black, you can discard a card from them.
+21. Zhang Liao
+You can choose to draw x fewer cards to instead choose from x people who have greater or equal number of cards than you and draw one card from each of their hands.
+22. Xu Chu
+Instead of drawing 2 cards, you could reveal top three cards of the deck, take all basics, weapons and duels. If you do so, on that turn, your kills and duels deal one extra damage.
+23. Li Dian
+Instead of drawing, you can look at the top four cards, choose 2 and put the other 2 on the bottom in any order
+When you deal damage to others or when others deal damage to you, you can choose to let both of you guys draw a card from the deck.
+24. Hua Xiong
+If someone deals you a damage with a red kill, that person can choose to either gain one health or draw a card
+25. DEPRECATED 
+26. Gong Sun Zan
+If you use a black kill to deal a damage to someone, you can discard a card from their equipment field, if the card is horse, you can take it.
+Core effect: if your health is greater or equal to 3, you have -1. Otherwise, you have +1.
+Can only be gained from the effect above. Once per turn, you are able to select another character, observer all his cards in his hand and then select at most 1 heart card to put on top of deck or discard.
+27. Lü Bu
+Core effect: your kills require 2 doges, dueling with you requires 2 kills
+If you deal damage to someone, that person has the choice to: let you take a card from that person, and that person chooses someone for you to duel with
+28. Diao Chan
+At the end of your turn, you can draw a card.
+Once per turn, you can discard a card to let two male characters duel.
+29. Hua Tuo
+On your turn, if you have cards, you can choose other people (at most 1 from each country, and cannot be in your country), you and each of these people discard a card. If any spade is discarded from this process, the owner of the spade draws a card.
+Outside your turn you can use any red card as peach.
