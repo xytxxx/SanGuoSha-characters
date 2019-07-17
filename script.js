@@ -10,7 +10,7 @@ class App extends React.Component {
   
     }
     searchData(e) {
-      let input = e.target.value.trim().toUpperCase();
+      let input = e.target.value.trim().toUpperCase().replace(" ","");
       
       if (input != '' && input in this.state.characters) {
         console.log(input);
