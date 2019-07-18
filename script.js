@@ -46,25 +46,18 @@ class App extends React.Component {
             placeholder: "e.g. 'WU001' or 'wu 003'" })));
     }}
   
-  class SearchResult extends React.Component {
-    render() {
-      return (
-        React.createElement("div", null,
-        React.createElement("ul", null,
-        this.props.data.map(function (value) {
-          return React.createElement(Item, { key: value, val: value });
-        }))));
-    }}
-
   class Character extends React.Component {
     
     render() {
       if (this.props.result) {
         let c = this.props.result;
+        var uri = encodeURI("https://www.google.com/search?tbm=isch&q=" + 
+                c.name + " Sanguosha")
         return (
           React.createElement("div", null, 
           [
             React.createElement("h2", {key: "name"}, c.name),
+            React.createElement("a", {href: uri, key: "link"}, "images"),
             c.abilities.map(function(desc) {
               return React.createElement('p', {key: Math.random()}, desc);
             })
@@ -75,12 +68,5 @@ class App extends React.Component {
       }
     }
   }
-  
-  class Item extends React.Component {
-    render() {
-      return (
-        React.createElement("li", null,
-        this.props.val));
-    }}
   
   ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
