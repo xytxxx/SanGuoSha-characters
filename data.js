@@ -316,39 +316,39 @@ const CHA =
     "QUN012": {
         "abilities": [
             "When someone takes damage from kill, you can discard a card and look at judgment, if heart, the damaged person gains 1 health, if diamond the damaged person draws 2. If club, the person who dealt damage must discard 2 and if spade the damage dealer flips.",
-            "Must Trigger, negate the effects of the character who killed you"
+            "MUST TRIGGER, negate the effects of the character who killed you"
         ],
         "name": "Cai Wen Ji"
     },
     "YJ102": {
         "abilities": [
-            "At the draw phase, you can either draw 1 extra (then you cannot use or play any kills, unitl end of turn), or draw 1 fewer (then your kills are infinite range and you can use an extra kill)"
+            "At the drawing phase, you can either draw 1 extra (then you cannot use or play any kills, unitl end of turn), or draw 1 fewer (then your kills are infinite range and you can use an extra kill)"
         ],
         "name": "Cao Zhang"
     },
     "YJ006": {
         "abilities": [
-            "Once per turn, can discard a card and choose someone with highest health, deal one damage to that person",
-            "When you deal damage to others, you can prevent the damage and take a card from their judgment or equipment field."
+            "Once per turn, you can discard 1 card and choose someone with highest health, deal 1 damage to that person",
+            "When you deal damage to others, you can prevent the damage and take a card from their judgment or equipment area."
         ],
         "name": "Ma Su"
     },
     "WU009": {
         "abilities": [
-            "At the beginning of your turn, can allow another character to either draw 1 discard x or draw x discard 1 where x is number of health you are injured of."
+            "At the beginning of your turn, you can allow another player to either draw 1 discard X or draw X discard 1 where X is number of health you are missing."
         ],
         "name": "Sun Jian"
     },
     "YJ004": {
         "abilities": [
-            "Must Trigger, all of your beers are kills",
-            "Once per turn, can compare with someone, if you win, you can use infinite kills to that guy and ignore range with that guy and that guy\u2019s shields. If you lose, you cannot use kill until end of turn."
+            "MUST TRIGGER: all of your beers are kills",
+            "Once per turn, you can perform a number comparison with a player. If you win, your distance to that player is ignored, you can use infinite number of kills on them, and you ignore their shield until the end of the turn. If you lose, you cannot use kill until end of turn."
         ],
         "name": "Gao Shun"
     },
     "YJ005": {
         "abilities": [
-            "When you lose any equipment in equipment field or discarded 2 or more cards in the discard phase, you can discard at most a total of 2 cards from up to 2 chars."
+            "When you lose any equipment in equipment area or discarded 2 or more cards in the discard phase, you can discard at most a total of 2 cards from up to 2 players."
         ],
         "name": "Ling Tong"
     },
@@ -361,14 +361,14 @@ const CHA =
     },
     "YJ304": {
         "abilities": [
-            "You can discard 2 cards to draw a card",
-            "At the end phase, you can reveal all of your hands, if they are all of the same colour, you can let x number of people each draw a card, x is the number of hands you reveal."
+            "You can discard 2 cards to draw a card during your main phase",
+            "At the end of your turn, you can reveal all of your hands, if they are all of the same colour, you can let at most X people each draw a car, where X is the number of hand cards you reveal."
         ],
         "name": "Gu Yong"
     },
     "YJ104": {
         "abilities": [
-            "Can use 2 cards as kill,  if a killed used by this effect deals damage, for that turn all of your red cards can be used as kill and you can kill infinite number of times"
+            "Can use 2 cards as kill, if a kill used by this effect deals damage, for that turn all of your red cards can be used as kill and you can kill infinite number of times"
         ],
         "name": "Guan Xing & Zhang Bao"
     },
@@ -380,13 +380,13 @@ const CHA =
     },
     "YJ207": {
         "abilities": [
-            "At the standby phase, can choose up to 2 chars, put 1 card from each of them on you as counters, others can discard 2 counters off you to use a free normal kill on you."
+            "At the beginning of your turn, you can choose up to 2 players (including yourself), put 1 card from each of them on you as counters, others can discard 2 counters off you to USE a free normal kill on you whenever they need to."
         ],
         "name": "Liu Feng"
     },
     "WEI009": {
         "abilities": [
-            "You can discard a card to skip any of your phases (judgment, draw, main, discard), if you skip draw, you can take 1 from upto 2 people\u2019s hands, if you skip main, you can move a card on the field (judgment, equipment)"
+            "You can discard a card to skip any of your phases (judgment, draw, main, discard), if you skip draw, you can take 1 each from upto 2 people's hands, if you skip main, you can move a card on the field (judgment, equipment) from one player to another"
         ],
         "name": "Zhang He"
     },
@@ -398,19 +398,19 @@ const CHA =
     },
     "SHU012": {
         "abilities": [
-            "Once per turn, you can ask someone else who has you in the attack range to attack you, if they don\u2019t, you can discard a card from them.",
+            "Once per turn, you can ask someone else who has you in the attack range to attack you, if they don't, you can discard a card from them.",
             "If you do not have cards in the beginning of your turn, you decrease your health limit by 1, and then either gain one health or draw 2 cards, then you gain the next effect",
-            "Can only be gained from the above effect. At the beginning of your turn, you are able to look at the top min(x, 5) cards on the deck (where x is the number of players alive in the game). You are able to rearrange the order of these cards or put any number of these cards to the bottom of the deck."
+            "Can only be gained from the above effect. At the beginning of your turn, you are able to look at the top min(X, 5) cards on the deck (where X is the number of players alive in the game). You are able to rearrange the order of these cards or put any number of these cards to the bottom of the deck."
         ],
         "name": "Jiang Wei"
     },
     "SHU011": {
         "abilities": [
-            "Must trigger, if you have no shield, then it is treated you have the red as dodge shield",
+            "MUST TRIGGER, if you have no shield, then it is treated you have the 'do a judgment, free dodge if red' shield",
             "You can use all of your blacks as negates.",
-            "You can use all of your reds as fireships"
+            "You can use all of your reds as flames (the spell that let another player show you a card, then you can discard a hand card of same suit to deal 1 fire damage to them)"
         ],
-        "name": "Young Zhu Ge Liang"
+        "name": "Zhu Ge Liang (in his early ages)"
     },
     "SHU010": {
         "abilities": [
@@ -421,52 +421,52 @@ const CHA =
     },
     "YJ108": {
         "abilities": [
-            "Can draw x more cards (x is number of different countries) in draw phase, if you do so you cannot target other people with your cards (AOEs don\u2019t target them)",
-            "Must Trigger, you can keep x more cards in your hands, (x is number of different countries) ."
+            "You can draw X more cards (X is number of different countries alive) in draw phase, if you do so you cannot target other people with your cards (AOEs don't target any other person)",
+            "MUST TRIGGER, you can keep X more cards in your hands, (X is number of different countries) ."
         ],
         "name": "Liu Biao"
     },
     "YJ111": {
         "abilities": [
             "You are able to use all of your hands (at least one) as any instant spell, once per turn",
-            "If you take damage, you can draw a card, and if you do you must reveal your hand, then if all the cards in the hand have the same colour, the damage source must discard a card from their hand"
+            "If you take damage, you can draw a card, and if you do so you must reveal your hand, then if all the cards in the hand have the same colour, the damage source must discard a card from their hand"
         ],
         "name": "Xun You"
     },
     "SP024": {
         "abilities": [
-            "When someone else\u2019s end turn begins, you can discard any basic card, if you do, that character can discard an equipment and let you draw a card, or take damage from you."
+            "During someone else's end of turn, you can discard any basic card, if you do, that character must discard an equipment and let you draw a card, or take 1 damage from you."
         ],
         "name": "Yue Jin"
     },
     "YJ403": {
         "abilities": [
-            "Once per turn, can reveal all of your hand, if they are of different colours, you can discard an entire colour and then take 1 card from at most x number of people (x is number of cards discarded), if x>=2, then you decrease your health by 1."
+            "Once per turn, you can reveal all of your hand, if they contains both black and red, you can discard an entire colour and then take 1 card each from at most X number of people (X is number of cards discarded), if X>=2, then you decrease your health by 1."
         ],
         "name": "Gong Sun Yuan"
     },
     "SP026": {
         "abilities": [
-            "When someone within 1 range of you (including yourself) is selected as an attack target, you can draw a card and if you do, you must give a card to that character 1 card, if it is equipment that character can use it."
+            "When someone within 1 range of you (including yourself) is selected as an attack target, you can draw a card and if you do, you must reveal a card and give it to that character, and if it is equipment that character can use it."
         ],
         "name": "Cao Ang"
     },
     "WU014": {
         "abilities": [
-            "Once per turn, can choose 2 people with different number of cards and discard x(the difference in their number of cards) to switch their hands",
-            "In draw phase, you can draw 2 more, if you do so and you end up with more than 5 cards after your draw, you must give half of your cards (round down) to another person with the least number of hands."
+            "Once per turn, can choose 2 people with different number of cards and discard X (the difference in their number of cards) to switch their hand cards",
+            "In draw phase, you can draw 2 more, if you do so and you end up with more than 5 cards after your draw, you must give half of your cards (round down) to one of the people with the least number of hands."
         ],
         "name": "Lu Su"
     },
     "YJ405": {
         "abilities": [
-            "Can use all cards in hand as a duel, then you and the person who took damage from this duel each draw 1, if you draw >=2 cards from this effect, then you cannot use this effect for this turn."
+            "Can use all cards in hand as a duel, then you and the person who took damage from this duel each draw 1, if you have drew >= 2 cards accumulatively from this effect during this turn, then you cannot use this effect for this turn."
         ],
         "name": "Liu Chen"
     },
     "YJ001": {
         "abilities": [
-            "You are able to take other people\u2019s discarded clubs or judgment club cards",
+            "You are able to take other people's discarded clubs or judgment club cards",
             "If your character is not flipped, you can flip yourself to use a beer, if you are flipped and you take damage, your character can be flipped back."
         ],
         "name": "Cao Zhi"
@@ -481,7 +481,7 @@ const CHA =
     "WEI014": {
         "abilities": [
             "If someone dies, you take all of their cards.",
-            "When you take damage, you can let someone draw x number of cards and flip, x is number of health you have lost."
+            "When you take damage, you can let someone draw X number of cards and flip, X is number of health you have lost."
         ],
         "name": "Cao Pi"
     },
@@ -501,7 +501,7 @@ const CHA =
     },
     "WEI010": {
         "abilities": [
-            "Must trigger, if someone\u2019s draw phase is skipped, you draw a card",
+            "MUST TRIGGER, if someone's draw phase is skipped, you draw a card",
             "You are able to use any black basic or equipment as the skip draw card, your skip draws are infinite range for characters with more or equal hands than you."
         ],
         "name": "Xu Huang"
@@ -511,13 +511,13 @@ const CHA =
             "Each time you target someone or is targeted by a red kill or duel, you draw a card",
             "At the beginning of your turn, if you have 1 health, you transform, you must lose 1 life limit and gain the next 2 effects",
             "Can only be gained by transformation, (You draw an extra card, you can always hold the maximum number of cards that you can hold (equaling to your health limit))",
-            "Can only be gained by transformation, (at the beginning of your turn, can allow another character to either draw 1 discard x or draw x discard 1 where x is number of health you are injured of."
+            "Can only be gained by transformation, (at the beginning of your turn, can allow another character to either draw 1 discard X or draw X discard 1 where X is number of health you are injured of."
         ],
         "name": "Sun Ce"
     },
     "WU011": {
         "abilities": [
-            "Must Trigger, your spades are always hearts",
+            "MUST TRIGGER, your spades are always hearts",
             "When you are about to take damage, you can direct that damage to someone else by discarding a heart, that person takes the damage and then draw cards equaling to the number of health they are injured"
         ],
         "name": "Xiao Qiao"
@@ -525,13 +525,13 @@ const CHA =
     "OL002": {
         "abilities": [
             "If you need to use a basic card outside your turn, you can look at the top 2 cards of the deck and use cards from there.",
-            "At the main phase, you can discard x number of cards to deal a damage to someone with x number of health in your attack range, if x is 1, then you decrease a health after damage calculation and cannot use this effect again until end of turn."
+            "At the main phase, you can discard X number of cards to deal a damage to someone with X number of health in your attack range, if X is 1, then you decrease a health after damage calculation and cannot use this effect again until end of turn."
         ],
         "name": "Zhu Ge Ke"
     },
     "YJ306": {
         "abilities": [
-            "Must trigger, if you take damage, if this is your first time for the turn, you gain one health, if it is not, then you decrease your health by 1",
+            "MUST TRIGGER, if you take damage, if this is your first time for the turn, you gain one health, if it is not, then you decrease your health by 1",
             "If your play 2 cards with same number of suit consecutively, you draw a card."
         ],
         "name": "Ju Shou"
