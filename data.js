@@ -9,13 +9,13 @@ const CHA =
     "QUN026": {
         "abilities": [
             "If you use a black kill to deal a damage to someone, you can discard a card from their equipment field, if the card is horse, you can take it.",
-            "MUST-TRIGGER: if your health is greater or equal to 3, you have -1. Otherwise, you have +1.",
+            "MUST TRIGGER: if your health is greater or equal to 3, you have -1. Otherwise, you have +1.",
         ],
         "name": "Gong Sun Zan"
     },
     "QUN002": {
         "abilities": [
-            "MUST-TRIGGER: your kills require 2 doges, dueling with you requires 2 kills",
+            "MUST TRIGGER: your kills require 2 doges, dueling with you requires 2 kills",
             "If you deal damage to someone, that person has the choice to: let you take a card from that person, and that person chooses someone for you to duel with"
         ],
         "name": "L\u00fc Bu"
@@ -84,7 +84,7 @@ const CHA =
     },
     "SHU006": {
         "abilities": [
-            "MUST-TRIGGER: You have a -1 horse to start. This can be stacked once with the -1 horse card.",
+            "MUST TRIGGER: You have a -1 horse to start. This can be stacked once with the -1 horse card.",
             "If you select a person as an attacking target, you have the choice of using this ability:",
             "Check out the top card as a judgment.",
             "The target must discard a card with the same suit as the judgment card in order to dodge.",
@@ -213,7 +213,7 @@ const CHA =
     "WU013":{
         "name": "Zhou Tai",
         "abilities": [
-            "MUST-TRIGGER. When your health becomes 0, you show the first card of the deck. If that card has different number than any other card that is placed on your character card, you put the card on your character card and heal your health back to 1. If not, discard that card. Whenever you have cards on your character card, your maximum hand card number equals to the number of cards on you character card.",
+            "MUST TRIGGER. When your health becomes 0, you show the first card of the deck. If that card has different number than any other card that is placed on your character card, you put the card on your character card and heal your health back to 1. If not, discard that card. Whenever you have cards on your character card, your maximum hand card number equals to the number of cards on you character card.",
             "Whenever a player's hand card is discarded or taken by another player, you can decrease your health by 1 and let the person losing card draw two cards."
         ]
     },
@@ -248,7 +248,7 @@ const CHA =
     "SHU013":{
         "name": "Liu Shan",
         "abilities": [
-            "MUST-TRIGGER. Whenever other players use 'kill' on you, they need to discard another basic card or that 'kill' has no effect.",
+            "MUST TRIGGER. Whenever other players use 'kill' on you, they need to discard another basic card or that 'kill' has no effect.",
             "You can skip your main phase. If you do so, at the end of that turn, you can discard a hand card and let another player do one extra turn. (does not change the rotating order, tho)",
             "WHEN YOU ARE KING: TRANSFORM: at the beginning of your turn, if your health == min(all players' health), you increase your maximum health by 1, heal by 1, and gain the third ability below:",
             "WHEN YOU ARE KING: whenever you need to use or discard a 'kill', you can ask another red character to do it for you."
@@ -270,23 +270,23 @@ const CHA =
         "name": "Dong Zhuo",
         "abilities": [
             "You can use any spade hand cards as 'beer'",
-            "MUST-TRIGGER: any 'kill' you use to a female character or a female character uses to you requires two dodges",
-            "MUST-TRIGGER: at the end of your turn, if your health != min(all players' healths), you have to decrease your health by 1 or decrease your maximum health by one",
+            "MUST TRIGGER: any 'kill' you use to a female character or a female character uses to you requires two dodges",
+            "MUST TRIGGER: at the end of your turn, if your health != min(all players' healths), you have to decrease your health by 1 or decrease your maximum health by one",
             "WHEN YOU ARE KING: whenever other black character deals damage, you can do a judgment. If it is spade, you can heal by 1."
         ]
     },
     "QUN007":{
         "name": "Jia Xu",
         "abilities":[
-            "MUST-TRIGGER: during your turn, only you and dying characters can use peach",
-            "MUST-TRIGGER: black spells cannot target at you",
+            "MUST TRIGGER: during your turn, only you and dying characters can use peach",
+            "MUST TRIGGER: black spells cannot target at you",
             "ONCE PER GAME: during your main phase, you can let all other characters to either use a 'kill' to the closest  character to them or decrease their health by 1"
         ]
     },
     "QUN008":{
         "name": "Pang De",
         "abilities":[
-            "MUST-TRIGGER: You have a -1 horse to start. This can be stacked once with the -1 horse card.",
+            "MUST TRIGGER: You have a -1 horse to start. This can be stacked once with the -1 horse card.",
             "When other characters dodges your 'kill', you can discard one of their card"
         ]
     },
@@ -309,7 +309,7 @@ const CHA =
         "name": "Yu Ji",
         "abilities":[
             "Once per any player's turn, you can play a hand card face down and claim it to be any basic card or normal spell. If no one doubts that it will act like the card you claimed. If any one doubts it, you have show it. If you are lying, the card you played is discarded; If you are telling the truth, that player gets Debuff** as an ability.",
-            "**Debuff: MUST-TRIGGER: You cannot doubt Yu Ji's cards. If you have 1 health, you lose other non-MUST-TRIGGER abilities.",
+            "**Debuff: MUST TRIGGER: You cannot doubt Yu Ji's cards. If you have 1 health, you lose other non-MUST-TRIGGER abilities.",
             "Reminder: You also have Debuff** from game start as Yu Ji itself"
         ]
     }
