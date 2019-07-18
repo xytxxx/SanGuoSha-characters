@@ -149,7 +149,7 @@ const CHA =
     },
     "WU005": {
         "abilities": [
-            "You draw an extra card, you can always hold the maximum number of cards that you can hold (equaling to your health limit)",
+            "MUST TRIGGER: You draw an extra card during drawing phase, your maximum number of hand cards is your health limit.",
             "You can give a card from your hand to another character, that character must either reveal all cards in his hand and discard all cards of the same suit as the card that you give, from their hands+equipment field, or to decrease their health by 1."
         ],
         "name": "Zhou Yu"
