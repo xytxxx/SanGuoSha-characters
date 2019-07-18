@@ -63,7 +63,8 @@ const CHA =
     "SHU001": {
         "abilities": [
             "You are able to give cards from your hand to others once per turn",
-            "If you give out two or more cards in your turn, you get to play a basic card action without using any card"
+            "If you give out two or more cards in your turn, you get to play a basic card action without using any card",
+            "IF YOU ARE KING: whenever you need to use a discard a 'kill', you can ask a red character to do it for you"
         ],
         "name": "Liu Bei"
     },
@@ -118,7 +119,7 @@ const CHA =
     "WU001": {
         "abilities": [
             "Once per turn, you can discard any number of cards (including equipment) and draw that many cards from the deck",
-            "If someone else from the same country revives you with a peach you gain 2 health"
+            "IF YOU ARE KING: If a green character revives you with a peach you gain 2 health"
         ],
         "name": "Sun Quan"
     },
@@ -133,8 +134,8 @@ const CHA =
     "WU006": {
         "abilities": [
             "Once per turn, you are able to use one of the following:",
-            "Use diamond as a skip turn and draw a card from the deck",
-            "Use diamond to discard a skip turn and draw a card from the deck",
+            "1. Use diamond as a skip turn and draw a card from the deck",
+            "2. Use diamond to discard a skip turn and draw a card from the deck",
             "If you are selected as an attack target, you can discard a card to re-direct this attack to another player (except the attacker) in your attack range"
         ],
         "name": "Da Qiao"
@@ -184,7 +185,8 @@ const CHA =
     },
     "WEI001": {
         "abilities": [
-            "If you take damage, you can either draw a card or take the card(if applicable) that dealt you the damage"
+            "If you take damage, you can either draw a card or take the card(if applicable) that dealt you the damage",
+            "IF YOU ARE KING: whenever you need to use a dodge, you can ask a blue character to do it for you"
         ],
         "name": "Cao Cao"
     },
