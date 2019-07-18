@@ -9,13 +9,13 @@ const CHA =
     "QUN026": {
         "abilities": [
             "If you use a black kill to deal a damage to someone, you can discard a card from their equipment field, if the card is horse, you can take it.",
-            "CORE EFFECT: if your health is greater or equal to 3, you have -1. Otherwise, you have +1.",
+            "MUST-TRIGGER: if your health is greater or equal to 3, you have -1. Otherwise, you have +1.",
         ],
         "name": "Gong Sun Zan"
     },
     "QUN002": {
         "abilities": [
-            "CORE EFFECT: your kills require 2 doges, dueling with you requires 2 kills",
+            "MUST-TRIGGER: your kills require 2 doges, dueling with you requires 2 kills",
             "If you deal damage to someone, that person has the choice to: let you take a card from that person, and that person chooses someone for you to duel with"
         ],
         "name": "L\u00fc Bu"
@@ -84,7 +84,7 @@ const CHA =
     },
     "SHU006": {
         "abilities": [
-            "You have a -1 horse to start. This can be stacked once with the -1 horse card.",
+            "MUST-TRIGGER: You have a -1 horse to start. This can be stacked once with the -1 horse card.",
             "If you select a person as an attacking target, you have the choice of using this ability:",
             "Check out the top card as a judgment.",
             "The target must discard a card with the same suit as the judgment card in order to dodge.",
@@ -213,10 +213,17 @@ const CHA =
     "WU013":{
         "name": "Zhou Tai",
         "abilities": [
-            "CORE EFFECT. When your health becomes 0, you show the first card of the deck. If that card has different number than any other card that is placed on your character card, you put the card on your character card and heal your health back to 1. If not, discard that card. Whenever you have cards on your character card, your maximum hand card number equals to the number of cards on you character card.",
+            "MUST-TRIGGER. When your health becomes 0, you show the first card of the deck. If that card has different number than any other card that is placed on your character card, you put the card on your character card and heal your health back to 1. If not, discard that card. Whenever you have cards on your character card, your maximum hand card number equals to the number of cards on you character card.",
             "Whenever a player's hand card is discarded or taken by another player, you can decrease your health by 1 and let the person losing card draw two cards."
         ]
     },
+    "WU015":{
+        "name": "Zhang Zhao & Zhang Hong",
+        "abilities": [
+            "When other player discards cards at the end of their turn, you can give 1 of the discarded card back to them and then you take the rest.",
+            "During your main phase, you can equip one equipment card in your hand to another player (you cannot replace their existing equipments) and then draw a card."
+        ]
+    }, 
     "SHU009":{
         "name":"Wei Yan",
         "abilities":[
@@ -241,10 +248,69 @@ const CHA =
     "SHU013":{
         "name": "Liu Shan",
         "abilities": [
-            "CORE EFFECT. Whenever other players use 'kill' on you, they need to discard another basic card or that 'kill' has no effect.",
+            "MUST-TRIGGER. Whenever other players use 'kill' on you, they need to discard another basic card or that 'kill' has no effect.",
             "You can skip your main phase. If you do so, at the end of that turn, you can discard a hand card and let another player do one extra turn. (does not change the rotating order, tho)",
             "WHEN YOU ARE KING: TRANSFORM: at the beginning of your turn, if your health == min(all players' health), you increase your maximum health by 1, heal by 1, and gain the third ability below:",
             "WHEN YOU ARE KING: whenever you need to use or discard a 'kill', you can ask another red character to do it for you."
+        ]
+    },
+    "QUN004":{
+        "name": "Yuan Shao",
+        "abilities":[
+            "You can use two of your hand cards of same suit as 'arrows'"
+        ]
+    },
+    "QUN005":{
+        "name": "Yan Liang & Wen Chou",
+        "abilities": [
+            "You can do a judgment instead of drawing two cards for drawing phase. If you do so, you take the judgment card and you can use any hand card that has different color than the judgment card as 'dual' during that turn"
+        ]
+    },
+    "QUN006":{
+        "name": "Dong Zhuo",
+        "abilities": [
+            "You can use any spade hand cards as 'beer'",
+            "MUST-TRIGGER: any 'kill' you use to a female character or a female character uses to you requires two dodges",
+            "MUST-TRIGGER: at the end of your turn, if your health != min(all players' healths), you have to decrease your health by 1 or decrease your maximum health by one",
+            "WHEN YOU ARE KING: whenever other black character deals damage, you can do a judgment. If it is spade, you can heal by 1."
+        ]
+    },
+    "QUN007":{
+        "name": "Jia Xu",
+        "abilities":[
+            "MUST-TRIGGER: during your turn, only you and dying characters can use peach",
+            "MUST-TRIGGER: black spells cannot target at you",
+            "ONCE PER GAME: during your main phase, you can let all other characters to either use a 'kill' to the closest  character to them or decrease their health by 1"
+        ]
+    },
+    "QUN008":{
+        "name": "Pang De",
+        "abilities":[
+            "MUST-TRIGGER: You have a -1 horse to start. This can be stacked once with the -1 horse card.",
+            "When other characters dodges your 'kill', you can discard one of their card"
+        ]
+    },
+    "QUN009":{
+        "name": "Zuo Ci",
+        "abilities":[
+            "At the beginning of the game, you draw two characters from the unused pile. You choose one ability from one of the characters to use. You can change your ability at the beginning of your turn and/or at the end of your turn",
+            "For each damage you take, you draw another character card."
+        ]
+    },
+    "QUN010":{
+        "name": "Zhang Jiao",
+        "abilities": [
+            "Whenever you uses a dodge, you can let a player do a judgment. If it is spade, that player takes 2 damage. If it is a club, that player takes 1 damage and you heal by 1",
+            "Before a judgment card takes effect, you can swap it with one of your black cards",
+            "IF YOU ARE KING: other black characters can give you a 'dodge' or 'lightning' once per their turn"
+        ]
+    },
+    "QUN011":{
+        "name": "Yu Ji",
+        "abilities":[
+            "Once per any player's turn, you can play a hand card face down and claim it to be any basic card or normal spell. If no one doubts that it will act like the card you claimed. If any one doubts it, you have show it. If you are lying, the card you played is discarded; If you are telling the truth, that player gets Debuff** as an ability.",
+            "**Debuff: MUST-TRIGGER: You cannot doubt Yu Ji's cards. If you have 1 health, you lose other non-MUST-TRIGGER abilities.",
+            "Reminder: You also have Debuff** from game start as Yu Ji itself"
         ]
     }
 };
