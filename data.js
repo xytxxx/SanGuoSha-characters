@@ -473,36 +473,37 @@ const CHA =
     },
     "WEI013": {
         "abilities": [
-            "Each point of damage, you can let someone draw until they have cards equal to their health limit",
-            "You can choose to compare with someone who has more health than you, if you win, you can let that person deal a damage to someone in his attack range, if you lose, you take a damage"
+            "For each point of damage you take, you can let someone draw until they have cards equal to their health limit",
+            "You can choose to number compare with someone who has more health than you, if you win, you can let that person deal a damage to someone in his attack range, if you lose, you take a damage"
         ],
         "name": "Xun Yu"
     },
     "WEI014": {
         "abilities": [
             "If someone dies, you take all of their cards.",
-            "When you take damage, you can let someone draw X number of cards and flip, X is number of health you have lost."
+            "When you take damage, you can let someone draw X number of cards and flip, X is number of health you have lost.",
+            "WHEN YOU ARE KING: when other blue character's black judgment card takes effect, they can let you draw a card"
         ],
         "name": "Cao Pi"
     },
     "WEI015": {
         "abilities": [
             "If you lose cards outside your turn, you can flip a judgment card, if that is not heart, you put it on yourself as a counter",
-            "If you have >=3 counters at the beginning of your turn, you transform by decreasing your health limit by 1, by  gaining the effect below:",
+            "If you have >=3 counters at the beginning of your turn, you transform by decreasing your health limit by 1 and gaining the effect below:",
             "Can only be gained from the above effect. You can use any of your counter as the (take one) card"
         ],
         "name": "Deng Ai"
     },
     "WU012": {
         "abilities": [
-            "Once per turn, you can compare with someone, if you win, you can use one more kill and your kills are infinite range, if you lose, you cannot use kills until end of turn"
+            "Once per turn, you can compare number with someone, if you win, you can use one more kill and your kills are infinite range, if you lose, you cannot use kills until end of turn"
         ],
         "name": "Tai Shi Ci"
     },
     "WEI010": {
         "abilities": [
             "MUST TRIGGER, if someone's draw phase is skipped, you draw a card",
-            "You are able to use any black basic or equipment as the skip draw card, your skip draws are infinite range for characters with more or equal hands than you."
+            "You can use any black basic or equipment as the skip draw card, your skip draws are infinite range for characters with more or equal hands than you."
         ],
         "name": "Xu Huang"
     },
@@ -510,29 +511,29 @@ const CHA =
         "abilities": [
             "Each time you target someone or is targeted by a red kill or duel, you draw a card",
             "At the beginning of your turn, if you have 1 health, you transform, you must lose 1 life limit and gain the next 2 effects",
-            "Can only be gained by transformation, (You draw an extra card, you can always hold the maximum number of cards that you can hold (equaling to your health limit))",
-            "Can only be gained by transformation, (at the beginning of your turn, can allow another character to either draw 1 discard X or draw X discard 1 where X is number of health you are injured of."
+            "Can only be gained by transformation, (You draw an extra card, your maximum number of hand cards is your health limit))",
+            "Can only be gained by transformation, (at the beginning of your turn, can allow another character to either draw 1 discard X or draw X discard 1 where X is number of health you are missing."
         ],
         "name": "Sun Ce"
     },
     "WU011": {
         "abilities": [
             "MUST TRIGGER, your spades are always hearts",
-            "When you are about to take damage, you can direct that damage to someone else by discarding a heart, that person takes the damage and then draw cards equaling to the number of health they are injured"
+            "When you are about to take damage, you can re-direct that damage to someone else by discarding a heart, that person takes the damage and then draw cards equaling to the number of health they are missing"
         ],
         "name": "Xiao Qiao"
     },
     "OL002": {
         "abilities": [
             "If you need to use a basic card outside your turn, you can look at the top 2 cards of the deck and use cards from there.",
-            "At the main phase, you can discard X number of cards to deal a damage to someone with X number of health in your attack range, if X is 1, then you decrease a health after damage calculation and cannot use this effect again until end of turn."
+            "At the main phase, you can discard X number of cards to deal 1 damage to someone with X number of health in your attack range, if X is 1, then you decrease your health by 1 after damage calculation and cannot use this effect again until end of turn."
         ],
         "name": "Zhu Ge Ke"
     },
     "YJ306": {
         "abilities": [
-            "MUST TRIGGER, if you take damage, if this is your first time for the turn, you gain one health, if it is not, then you decrease your health by 1",
-            "If your play 2 cards with same number of suit consecutively, you draw a card."
+            "MUST TRIGGER, if you take damage, if this is your first time for the current players' turn, you gain one health, if it is not, then you decrease your health by 1",
+            "If your play 2 cards with same number or suit consecutively, you draw a card."
         ],
         "name": "Ju Shou"
     }
