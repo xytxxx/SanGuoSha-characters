@@ -123,6 +123,13 @@ const CHA =
         ],
         "name": "Sun Quan"
     },
+    "SHU015":{
+        "abilities":[
+             "MUST TRIGGER: ‘elephants’ card does not work on you. After someone uses an ‘elephant’ card, you take that card.",
+             "After you deals damage to someone with ‘kill’, you can do a number comparison with the victim. If you win, you can take one card from them."
+
+        ]
+    }
     "SHU017": {
         "abilities": [
             "When another player ends their turn, if that player has dealt damage in that turn, you have a choice of using a kill to that player",
