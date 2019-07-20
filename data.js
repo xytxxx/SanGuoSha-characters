@@ -421,7 +421,7 @@ const CHA =
     },
     "YJ108": {
         "abilities": [
-            "You can draw X more cards (X is number of different countries alive) in draw phase, if you do so you cannot target other people with your cards (AOEs don't target any other person)",
+            "You can draw X more cards (X is number of different countries alive) in draw phase, if you do so you cannot target other people with your cards",
             "MUST TRIGGER, you can keep X more cards in your hands, (X is number of different countries) ."
         ],
         "name": "Liu Biao"
