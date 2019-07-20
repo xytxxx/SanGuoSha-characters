@@ -9,7 +9,7 @@ const CHA =
     "QUN026": {
         "abilities": [
             "If you use a black kill to deal a damage to someone, you can discard a card from their equipment field, if the card is horse, you can take it.",
-            "MUST TRIGGER: if your health is greater or equal to 3, you have -1. Otherwise, you have +1.",
+            "MUST TRIGGER: if your health is greater or equal to 3, you have -1. Otherwise, you have +1."
         ],
         "name": "Gong Sun Zan"
     },
@@ -129,7 +129,7 @@ const CHA =
              "After you deals damage to someone with ‘kill’, you can do a number comparison with the victim. If you win, you can take one card from them."
         ],
         "name": "Zhu Rong"
-    }
+    },
     "SHU017": {
         "abilities": [
             "When another player ends their turn, if that player has dealt damage in that turn, you have a choice of using a kill to that player",
