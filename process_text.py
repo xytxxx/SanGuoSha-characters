@@ -1,6 +1,6 @@
 lines = []
 import json
-with open('v2.txt','r') as f:
+with open('v3.txt','r') as f:
     lines= f.readlines()
 
 data = {}
@@ -17,5 +17,5 @@ for line in lines:
     else:
         data[curNum]["abilities"].append(line.strip())
 
-with open('r2.json','wb') as f:
+with open('r3.json','wb') as f:
     json.dump(data, f)

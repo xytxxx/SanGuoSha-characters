@@ -543,5 +543,182 @@ const CHA =
             "If your play 2 cards with same number or suit consecutively, you draw a card."
         ],
         "name": "Ju Shou"
+    },
+    "YJ107": {
+        "abilities": [
+            "MUST TRIGGER, at the beginning of your turn, you get an extra main phase",
+            "Once per game, when you die, you can gain health up to X, where X is number of countries living, then flip yourself"
+        ],
+        "name": "Liao Hua"
+    },
+    "SP033": {
+        "abilities": [
+            "When someone ends their turn, for every character you killed in that turn, you draw 3 cards",
+            "When someone\u2019s main phase begins, you can discard a card, it\u2019s treated that person uses a beer, then that person takes a damage from you"
+        ],
+        "name": "He Tai Hou"
+    },
+    "SP031": {
+        "abilities": [
+            "Once per turn, you can discard 1 card to choose to be within range one with another character until the end of the turn",
+            "When using a kill, you can choose an extra target within 1 range as you"
+        ],
+        "name": "Ding Feng"
+    },
+    "OL005": {
+        "abilities": [
+            "At beginning of draw phase, can not draw, instead, draw x cards (x is the number of injured characters), if you do so, then every time you use a basic or spell card inside your turn, you must discard a card.",
+            "MUST TRIGGER, if you take damage, if you have no cards in hand, you take +1 damage",
+            "IF YOU ARE KING: MUST TRIGGER, other uninjured green characters are all treated as injured in your turn"
+        ],
+        "name": "Sun Hao"
+    },
+    "SP037": {
+        "abilities": [
+            "Each health you gain, you can let someone else gain one health or draw 2 cards",
+            "At the beginning of the turn, you can discard all hands, then if the number of cards you discarded is not less than your current health, you gain one life"
+        ],
+        "name": "Mrs Gan"
+    },
+    "YJ101": {
+        "abilities": [
+            "Once per turn, choose 2 characters with different number of hands, let the person with smaller number of cards take a card and reveal from the person with more cards in hand, if that card is not spade, you draw a card",
+            "When you die, you can let someone else (not the person who killed you) to draw 3 and gain one life."
+        ],
+        "name": "Bu Lian Shi"
+    },
+    "YJ411": {
+        "abilities": [
+            "Once per turn, can choose a card in the equipment field of another player\u2019s and then let him take it back to hand, if the number of characters reachable in his attack range decreases, then you draw a card."
+        ],
+        "name": "Zhu Zhi"
+    },
+    "YJ007": {
+        "abilities": [
+            "Once per turn, can choose 2 characters and trade their equipment field, the difference in total of equipment between them cannot exceed the number of health you already lost.",
+            "When someone is dying, you can reveal a card from that person\u2019s hand, if it is not basic, then that person discards that card and gain one health."
+        ],
+        "name": "Wu Guo Tai"
+    },
+    "YJ002": {
+        "abilities": [
+            "Once per turn, can give an equipment or kill to any character and that character chooses to attack someone in his range (selected by you) or to draw a card",
+            "MUST TRIGGER, outside your turn, each time you take damage, any kill or quick spells are negated for you until end of turn."
+        ],
+        "name": "Chen Gong"
+    },
+    "SP018": {
+        "abilities": [
+            "When attacking someone, can either draw one or discard one from them, if you do this and the attack is dodged, then that person can discard a card from you."
+        ],
+        "name": "Fu Wan"
+    },
+    "YJ109": {
+        "abilities": [
+            "MUST TRIGGER, -1 at all time",
+            "At beginning of turn, can draw a card and discard a card to choose someone within one range, then that person cannot use or play any cards in hand that have the same colour as the discarded card."
+        ],
+        "name": "Ma Dai"
+    },
+    "YJ008": {
+        "abilities": [
+            "When you use kill in main phase on someone, you can put at most x number of cards on that person\u2019s character (he gets it back to his hand at end of turn), x is number of health he has."
+        ],
+        "name": "Xu Sheng"
+    },
+    "YJ208": {
+        "abilities": [
+            "When you take damage, you can reveal a hand to damage source, they must discard a card that is of different type, otherwise you gain one health",
+            "Once per main phase, can discard at least one hand, let some other character discard a card that is different in type from all cards you discarded, if they don\u2019t, then they flip and draw cards equalling to number of cards you discard this way."
+        ],
+        "name": "Man Chong"
+    },
+    "YJ209": {
+        "abilities": [
+            "When you deal damage to someone using a kill, you can discard a card and take their weapon",
+            "If you deal damage to someone with a kill, if you are not in the attacking range of that character, deal one extra damage"
+        ],
+        "name": "PanZhang & MaZhong"
+    },
+    "YJ203": {
+        "abilities": [
+            "When someone uses a kill in main phase, you can discard a card to not count this kill in his once per turn limit, if this kill is red, you draw a card"
+        ],
+        "name": "Guan Ping"
+    },
+    "OL00X": {
+        "abilities": [
+            "When you use a basic or spell card and select a target in your turn, you can discard a card from someone who is not the target, then that person draws 1 card",
+            "At the end of turn, can draw 2 cards, if you do so, you must discard hand to x number of cards (x is the number of times you used first effect)"
+        ],
+        "name": "Wang Ji"
+    },
+    "SP003": {
+        "abilities": [
+            "At the end phase, can let any number of injured characters draw 1 card",
+            "Once per turn, decrease health by 1 to choose someone else with hand cards, you look at their hand, if there is dodge, then it\u2019s treated as if you used a kill on him, and you are within 1 range with him until the end of the turn. If there is no dodges, you discard a card"
+        ],
+        "name": "Cao Ren"
+    },
+    "SP004": {
+        "abilities": [
+            "MUST TRIGGER, in draw phase, draw x more, in the beginning of discard phase, discard x, where x is the number of countries",
+            "MUST TRIGGER, you have the current king\u2019s king ability.",
+            "SPWEI069. Lu Zhi",
+            "In the beginning of the main phase, can draw 2 cards, if so, at end phase, you must trade hands with the player with the least number of hands.",
+            "Once per round (everyone\u2019s turn combined), you can use a free kill or dodge."
+        ],
+        "name": "Yuan Shu"
+    },
+    "SP002": {
+        "abilities": [
+            "At end of turn, draw a card",
+            "Once per turn, can discard a card and flip yourself to take all hands of a male character, at the end of your turn, you must give a card to him for each health he has left."
+        ],
+        "name": "Diao Chan"
+    },
+    "SP029": {
+        "abilities": [
+            "When you use a kill to deal damage to someone, you can move one card in his equipment field to your equipment field or discard it"
+        ],
+        "name": "Pan Feng"
+    },
+    "SP001": {
+        "abilities": [
+            "Can use kill and dodges interchangeably",
+            "Each time you use the first effect to someone, you can take a hand card from that person"
+        ],
+        "name": "Zhao Yun"
+    },
+    "YJ405": {
+        "abilities": [
+            "Can use all cards in hand as a duel, then you and the person who took damage from this duel each draw 1, if you draw >=2 cards from this effect, then you cannot use this effect for this turn."
+        ],
+        "name": "Li Tong"
+    },
+    "YJ211": {
+        "abilities": [
+            "Choose someone else in attack range, discard X number of cards (X is the number of times you have used this effect, begins with 1), if you discard 1, you can discard a card from your target, if you discard 2, the target gives you a card, if you discard 3, then deal a damage to target, for 4 or more, you and that person both draw 2 cards"
+        ],
+        "name": "Zhu Ran"
+    },
+    "YJ310": {
+        "abilities": [
+            "When ever you use a kill, at the end of the calculation, you can give the kill or the dodge used to counter the kill to another character that\u2019s not the target of the kill (cannot be yourself), if the card you give is a red card, then the person who gets the card can use a kill on someone in your attack range."
+        ],
+        "name": "Zhou Cang"
+    },
+    "YJ311": {
+        "abilities": [
+            "If your hand is highest in game, you can skip draw phase; if your health is highest, you can skip main phase; if you have equipment in your equipment field and your number of equipment is highest in game, you can skip discard phase",
+            "At end of turn, you can deal 1 damage to up to x number of other characters, where x is the number of phase skipped"
+        ],
+        "name": "Zhu Huan"
+    },
+    "YC006": {
+        "abilities": [
+            "Once per turn, ask someone else with cards to put cards (between 1 to 3) on you, at the next of your phase, you get cards on you and the person who gave those draw equal number of cards"
+        ],
+        "name": "Sun Deng"
     }
 };
