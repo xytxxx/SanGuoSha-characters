@@ -1,0 +1,76 @@
+YJ411. Zhu Zhi
+Once per turn, can choose a card in the equipment field of another player’s and then let him take it back to hand, if the number of characters reachable in his attack range decreases, then you draw a card.
+SP037. Mrs Gan
+Each health you gain, you can let someone else gain one health or draw 2 cards
+At the beginning of the turn, you can discard all hands, then if the number of cards you discarded is not less than your current health, you gain one life
+SP029. Pan Feng
+When you use a kill to deal damage to someone, you can move one card in his equipment field to your equipment field or discard it
+SP031. Ding Feng
+Once per turn, you can discard 1 card to choose to be within range one with another character until the end of the turn
+When using a kill, you can choose an extra target within 1 range as you
+YJ107. Liao Hua
+Must trigger, at the beginning of your turn, you get an extra main phase
+Once per game, when you die, you can gain health up to X, where X is number of countries living, then flip yourself
+SP003. Cao Ren
+At the end phase, can let any number of injured characters draw 1 card
+Once per turn, decrease health by 1 to choose someone else with hand cards, you look at their hand, if there is dodge, then it’s treated as if you used a kill on him, and you are within 1 range with him until the end of the turn. If there is no dodges, you discard a card
+SP001. Zhao Yun
+Can use kill and dodges interchangeably
+Each time you use the first effect to someone, you can take a hand card from that person
+SP002. Diao Chan
+At end of turn, draw a card
+Once per turn, can discard a card and flip yourself to take all hands of a male character, at the end of your turn, you must give a card to him for each health he has left.
+YJ310. Zhou Cang
+When ever you use a kill, at the end of the calculation, you can give the kill or the dodge used to counter the kill to another character that’s not the target of the kill (cannot be yourself), if the card you give is a red card, then the person who gets the card can use a kill on someone in your attack range.
+YJ203. Guan Ping
+When someone uses a kill in main phase, you can discard a card to not count this kill in his once per turn limit, if this kill is red, you draw a card
+SP033. He Tai Hou
+When someone ends their turn, for every character you killed in that turn, you draw 3 cards
+When someone’s main phase begins, you can discard a card, it’s treated that person uses a beer, then that person takes a damage from you
+YJ101. Bu Lian Shi
+Once per turn, choose 2 characters with different number of hands, let the person with smaller number of cards take a card and reveal from the person with more cards in hand, if that card is not spade, you draw a card
+When you die, you can let someone else (not the person who killed you) to draw 3 and gain one life.
+YJ008. Xu Sheng
+When you use kill in main phase on someone, you can put at most x number of cards on that person’s character (he gets it back to his hand at end of turn), x is number of health he has.
+SP018. Fu Wan
+When attacking someone, can either draw one or discard one from them, if you do this and the attack is dodged, then that person can discard a card from you.
+YC006. Sun Deng
+Once per turn, ask someone else with cards to put cards (between 1 to 3) on you, at the next of your phase, you get cards on you and the person who gave those draw equal number of cards
+YJ209. PanZhang & MaZhong
+When you deal damage to someone using a kill, you can discard a card and take their weapon
+If you deal damage to someone with a kill, if you are not in the attacking range of that character, deal one extra damage
+YJ208. Man Chong
+When you take damage, you can reveal a hand to damage source, they must discard a card that is of different type, otherwise you gain one health
+Once per main phase, can discard at least one hand, let some other character discard a card that is different in type from all cards you discarded, if they don’t, then they flip and draw cards equalling to number of cards you discard this way.
+OL00X. Mi Zhu
+Once per turn, can give any number of cards that sum up to 13 to someone else, then that person gains one health
+Must trigger, your hand limit is +x, and have +x cards in beginning of game, x is your health limit.
+YJ211. Zhu Ran
+Choose someone else in attack range, discard X number of cards (X is the number of times you have used this effect, begins with 1), if you discard 1, you can discard a card from your target, if you discard 2, the target gives you a card, if you discard 3, then deal a damage to target, for 4 or more, you and that person both draw 2 cards
+YJ109. Ma Dai
+Must trigger, -1 at all time
+At beginning of turn, can draw a card and discard a card to choose someone within one range, then that person cannot use or play any cards in hand that have the same colour as the discarded card.
+YJ002. Chen Gong
+Once per turn, can give an equipment or kill to any character and that character chooses to attack someone in his range (selected by you) or to draw a card
+Must trigger, outside your turn, each time you take damage, any kill or quick spells are negated for you until end of turn.
+YJ311. Zhu Huan
+If your hand is highest in game, you can skip draw phase; if your health is highest, you can skip main phase; if you have equipment in your equipment field and your number of equipment is highest in game, you can skip discard phase
+At end of turn, you can deal 1 damage to up to x number of other characters, where x is the number of phase skipped
+OL005. Sun Hao
+At beginning of draw phase, can not draw, instead, draw x cards (x is the number of injured characters), if you do so, then every time you use a basic or spell card inside your turn, you must discard a card.
+Must trigger, if you take damage, if you have no cards in hand, you take +1 damage
+King effect: must trigger, other uninjured green characters are all treated as injured in your turn
+OL00X. Wang Ji
+When you use a basic or spell card and select a target in your turn, you can discard a card from someone who is not the target, then that person draws 1 card
+At the end of turn, can draw 2 cards, if you do so, you must discard hand to x number of cards (x is the number of times you used first effect)
+SP004. Yuan Shu
+Must trigger, in draw phase, draw x more, in the beginning of discard phase, discard x, where x is the number of countries
+Must trigger, you have the current king’s king ability.
+SPWEI069. Lu Zhi
+In the beginning of the main phase, can draw 2 cards, if so, at end phase, you must trade hands with the player with the least number of hands.
+Once per round (everyone’s turn combined), you can use a free kill or dodge.
+YJ007. Wu Guo Tai
+Once per turn, can choose 2 characters and trade their equipment field, the difference in total of equipment between them cannot exceed the number of health you already lost.
+When someone is dying, you can reveal a card from that person’s hand, if it is not basic, then that person discards that card and gain one health.
+YJ405. Li Tong
+Can use all cards in hand as a duel, then you and the person who took damage from this duel each draw 1, if you draw >=2 cards from this effect, then you cannot use this effect for this turn.
