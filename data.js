@@ -663,12 +663,16 @@ const CHA =
     "SP004": {
         "abilities": [
             "MUST TRIGGER, in draw phase, draw x more, in the beginning of discard phase, discard x, where x is the number of countries",
-            "MUST TRIGGER, you have the current king\u2019s king ability.",
-            "SPWEI069. Lu Zhi",
-            "In the beginning of the main phase, can draw 2 cards, if so, at end phase, you must trade hands with the player with the least number of hands.",
-            "Once per round (everyone\u2019s turn combined), you can use a free kill or dodge."
+            "MUST TRIGGER, you have the current king\u2019s king ability."
         ],
         "name": "Yuan Shu"
+    },
+    "SPWEI069": {
+        "name": "Lu Zhi",
+        "abilities": [
+            "In the beginning of the main phase, can draw 2 cards, if so, at end phase, you must trade hands with the player with the least number of hands.",
+            "Once per round (everyone\u2019s turn combined), you can use a free kill or dodge."
+        ]
     },
     "SP002": {
         "abilities": [
